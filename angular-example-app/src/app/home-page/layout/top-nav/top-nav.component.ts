@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './top-nav.component.html',
   styleUrls: ['./top-nav.component.scss']
 })
+// @ts-ignore
 export class TopNavComponent implements OnInit {
 
   constructor() { }

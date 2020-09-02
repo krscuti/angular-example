@@ -10,6 +10,7 @@ import { MatInputModule } from '@angular/material/input';
 import { LoginRoutingModule } from './home-page-routing.module';
 import { LoginComponent } from './login/login/login.component';
 import { LayoutComponent } from './layout/layout.component';
+import {TopNavComponent} from './layout/top-nav/top-nav.component';
 
 @NgModule({
   imports: [
@@ -21,6 +22,6 @@ import { LayoutComponent } from './layout/layout.component';
     MatButtonModule,
     LoginRoutingModule
   ],
-  declarations: [LoginComponent, LayoutComponent]
+  declarations: [LoginComponent, LayoutComponent, TopNavComponent]
 })
 export class HomePageModule {}
