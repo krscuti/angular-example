@@ -7,9 +7,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatInputModule } from '@angular/material/input';
 
-import { LoginRoutingModule } from './home-page-routing.module';
-import { LoginComponent } from './login/login/login.component';
-import { LayoutComponent } from './layout/layout.component';
+import { LoginRoutingModule } from './login-routing.module';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   imports: [
@@ -21,6 +20,6 @@ import { LayoutComponent } from './layout/layout.component';
     MatButtonModule,
     LoginRoutingModule
   ],
-  declarations: [LoginComponent, LayoutComponent]
+  declarations: [LoginComponent]
 })
-export class HomePageModule {}
+export class LoginModule {}

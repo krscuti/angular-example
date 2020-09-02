@@ -8,6 +8,14 @@ const routes: Routes = [
     path: '',
     loadChildren: () => import('./home-page/home-page.module').then(m => m.HomePageModule),
     canActivate: [AuthGuard]
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./home-page/login/login.module').then(m => m.LoginModule)
+  },
+  {
+    path: '**',
+    component: PageNotFoundComponent
   }
 ];
 

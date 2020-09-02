@@ -8,8 +8,6 @@ import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 
-import { TopNavComponent } from './home-page/layout/top-nav/top-nav.component';
-
 // @ts-ignore
 @NgModule({
   imports: [
@@ -23,7 +21,6 @@ import { TopNavComponent } from './home-page/layout/top-nav/top-nav.component';
   providers: [],
   declarations: [
     AppComponent,
-    TopNavComponent,
   ],
   bootstrap: [ AppComponent ]
 })
